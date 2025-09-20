@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VMOVIES</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- ===== PRELOADER ===== -->
+  <div id="preloader">
+    <div class="logo">
+      <span>V</span><span>M</span><span>O</span><span>V</span><span>I</span><span>E</span><span>S</span>
+    </div>
+  </div>
+
+  <!-- ===== TOP BAR ===== -->
+  <div class="topbar">
+    <div class="logo1"><i class="fas fa-film"></i> VMOVIES</div>
+  </div>
+
+  <!-- ===== AUTO SHOWCASE (no arrows) ===== -->
+  <section class="auto-showcase">
+    <div class="showcase-slide active" style="background-image:url('showcase1.jpg')">
+      <div class="showcase-overlay">
+        <h2 class="showcase-title">The Great Adventure</h2>
+        <p class="showcase-desc">Experience a breathtaking journey through uncharted worlds.</p>
+        <button class="watch-btn">Watch Now</button>
+      </div>
+    </div>
+    <div class="showcase-slide" style="background-image:url('showcase2.jpg')">
+      <div class="showcase-overlay">
+        <h2 class="showcase-title">Romance in Paris</h2>
+        <p class="showcase-desc">A heartwarming love story in the city of lights.</p>
+        <button class="watch-btn">Watch Now</button>
+      </div>
+    </div>
+    <div class="showcase-slide" style="background-image:url('showcase3.jpg')">
+      <div class="showcase-overlay">
+        <h2 class="showcase-title">Mystic Shadows</h2>
+        <p class="showcase-desc">Dark secrets emerge as the hunt for truth begins.</p>
+        <button class="watch-btn">Watch Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WATCH HISTORY SECTION ===== -->
+  <section class="watch-history">
+    <h2 class="section-title">&nbsp;&nbsp;&nbsp;Watch History</h2>
+    <div class="movie-container">
+      <div class="movie" data-title="Movie One">
+        <img src="247473-ku5.jpg" alt="Movie One"><p>Movie One</p>
+      </div>
+      <div class="movie" data-title="Movie Two">
+        <img src="247473-ku5.jpg" alt="Movie Two"><p>Movie Two</p>
+      </div>
+      <div class="movie" data-title="Movie Three">
+        <img src="247473-ku5.jpg" alt="Movie Three"><p>Movie Three</p>
+      </div>
+      <div class="movie" data-title="Movie Four">
+        <img src="247473-ku5.jpg" alt="Movie Four"><p>Movie Four</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MOVIE SECTION ===== -->
+  <div class="movie-wrapper">
+    <div class="fade-left"></div>
+    <button class="scroll-btn left" onclick="scrollMovies(-1)">
+      <i class="fas fa-circle-chevron-left"></i>
+    </button>
+    <section>
+      <h2 class="section-title">&nbsp;&nbsp;&nbsp;New Releases</h2>
+      <div class="movie-container" id="movieList">
+        <div class="movie" data-title="KUBERAA">
+          <a href="#"><img src="247473-ku5.jpg" alt="Kuberaa"></a><p>KUBERAA</p>
+        </div>
+        <div class="movie" data-title="KGF">
+          <img src="247473-ku5.jpg" alt="KGF"><p>KGF</p>
+        </div>
+        <div class="movie" data-title="RRR">
+          <img src="247473-ku5.jpg" alt="RRR"><p>RRR</p>
+        </div>
+        <div class="movie" data-title="PUSHPA">
+          <img src="247473-ku5.jpg" alt="PUSHPA"><p>PUSHPA</p>
+        </div>
+        <div class="movie" data-title="BAHUBALI">
+          <img src="247473-ku5.jpg" alt="BAHUBALI"><p>BAHUBALI</p>
+        </div>
+        
+      </div>
+    </section>
+       <section>
+      <h2 class="section-title">&nbsp;&nbsp;&nbsp;New Releases</h2>
+      <div class="movie-container" id="movieList">
+        <div class="movie" data-title="KUBERAA">
+          <a href="#"><img src="247473-ku5.jpg" alt="Kuberaa"></a><p>KUBERAA</p>
+        </div>
+        <div class="movie" data-title="KGF">
+          <img src="247473-ku5.jpg" alt="KGF"><p>KGF</p>
+        </div>
+        <div class="movie" data-title="RRR">
+          <img src="247473-ku5.jpg" alt="RRR"><p>RRR</p>
+        </div>
+        <div class="movie" data-title="PUSHPA">
+          <img src="247473-ku5.jpg" alt="PUSHPA"><p>PUSHPA</p>
+        </div>
+        <div class="movie" data-title="BAHUBALI">
+          <img src="247473-ku5.jpg" alt="BAHUBALI"><p>BAHUBALI</p>
+        </div>
+        
+      </div>
+    </section>   <section>
+      <h2 class="section-title">&nbsp;&nbsp;&nbsp;New Releases</h2>
+      <div class="movie-container" id="movieList">
+        <div class="movie" data-title="KUBERAA">
+          <a href="#"><img src="247473-ku5.jpg" alt="Kuberaa"></a><p>KUBERAA</p>
+        </div>
+        <div class="movie" data-title="KGF">
+          <img src="247473-ku5.jpg" alt="KGF"><p>KGF</p>
+        </div>
+        <div class="movie" data-title="RRR">
+          <img src="247473-ku5.jpg" alt="RRR"><p>RRR</p>
+        </div>
+        <div class="movie" data-title="PUSHPA">
+          <img src="247473-ku5.jpg" alt="PUSHPA"><p>PUSHPA</p>
+        </div>
+        <div class="movie" data-title="BAHUBALI">
+          <img src="247473-ku5.jpg" alt="BAHUBALI"><p>BAHUBALI</p>
+        </div>
+        
+      </div>
+    </section>   <section>
+      <h2 class="section-title">&nbsp;&nbsp;&nbsp;New Releases</h2>
+      <div class="movie-container" id="movieList">
+        <div class="movie" data-title="KUBERAA">
+          <a href="#"><img src="247473-ku5.jpg" alt="Kuberaa"></a><p>KUBERAA</p>
+        </div>
+        <div class="movie" data-title="KGF">
+          <img src="247473-ku5.jpg" alt="KGF"><p>KGF</p>
+        </div>
+        <div class="movie" data-title="RRR">
+          <img src="247473-ku5.jpg" alt="RRR"><p>RRR</p>
+        </div>
+        <div class="movie" data-title="PUSHPA">
+          <img src="247473-ku5.jpg" alt="PUSHPA"><p>PUSHPA</p>
+        </div>
+        <div class="movie" data-title="BAHUBALI">
+          <img src="247473-ku5.jpg" alt="BAHUBALI"><p>BAHUBALI</p>
+        </div>
+        
+      </div>
+    </section>   <section>
+      <h2 class="section-title">&nbsp;&nbsp;&nbsp;New Releases</h2>
+      <div class="movie-container" id="movieList">
+        <div class="movie" data-title="KUBERAA">
+          <a href="#"><img src="247473-ku5.jpg" alt="Kuberaa"></a><p>KUBERAA</p>
+        </div>
+        <div class="movie" data-title="KGF">
+          <img src="247473-ku5.jpg" alt="KGF"><p>KGF</p>
+        </div>
+        <div class="movie" data-title="RRR">
+          <img src="247473-ku5.jpg" alt="RRR"><p>RRR</p>
+        </div>
+        <div class="movie" data-title="PUSHPA">
+          <img src="247473-ku5.jpg" alt="PUSHPA"><p>PUSHPA</p>
+        </div>
+        <div class="movie" data-title="BAHUBALI">
+          <img src="247473-ku5.jpg" alt="BAHUBALI"><p>BAHUBALI</p>
+        </div>
+        
+      </div>
+    </section>   <section>
+      <h2 class="section-title">&nbsp;&nbsp;&nbsp;New Releases</h2>
+      <div class="movie-container" id="movieList">
+        <div class="movie" data-title="KUBERAA">
+          <a href="#"><img src="247473-ku5.jpg" alt="Kuberaa"></a><p>KUBERAA</p>
+        </div>
+        <div class="movie" data-title="KGF">
+          <img src="247473-ku5.jpg" alt="KGF"><p>KGF</p>
+        </div>
+        <div class="movie" data-title="RRR">
+          <img src="247473-ku5.jpg" alt="RRR"><p>RRR</p>
+        </div>
+        <div class="movie" data-title="PUSHPA">
+          <img src="247473-ku5.jpg" alt="PUSHPA"><p>PUSHPA</p>
+        </div>
+        <div class="movie" data-title="BAHUBALI">
+          <img src="247473-ku5.jpg" alt="BAHUBALI"><p>BAHUBALI</p>
+        </div>
+        
+      </div>
+    </section>   <section>
+      <h2 class="section-title">&nbsp;&nbsp;&nbsp;New Releases</h2>
+      <div class="movie-container" id="movieList">
+        <div class="movie" data-title="KUBERAA">
+          <a href="#"><img src="247473-ku5.jpg" alt="Kuberaa"></a><p>KUBERAA</p>
+        </div>
+        <div class="movie" data-title="KGF">
+          <img src="247473-ku5.jpg" alt="KGF"><p>KGF</p>
+        </div>
+        <div class="movie" data-title="RRR">
+          <img src="247473-ku5.jpg" alt="RRR"><p>RRR</p>
+        </div>
+        <div class="movie" data-title="PUSHPA">
+          <img src="247473-ku5.jpg" alt="PUSHPA"><p>PUSHPA</p>
+        </div>
+        <div class="movie" data-title="BAHUBALI">
+          <img src="247473-ku5.jpg" alt="BAHUBALI"><p>BAHUBALI</p>
+        </div>
+        
+      </div>
+    </section>   <section>
+      <h2 class="section-title">&nbsp;&nbsp;&nbsp;New Releases</h2>
+      <div class="movie-container" id="movieList">
+        <div class="movie" data-title="KUBERAA">
+          <a href="#"><img src="247473-ku5.jpg" alt="Kuberaa"></a><p>KUBERAA</p>
+        </div>
+        <div class="movie" data-title="KGF">
+          <img src="247473-ku5.jpg" alt="KGF"><p>KGF</p>
+        </div>
+        <div class="movie" data-title="RRR">
+          <img src="247473-ku5.jpg" alt="RRR"><p>RRR</p>
+        </div>
+        <div class="movie" data-title="PUSHPA">
+          <img src="247473-ku5.jpg" alt="PUSHPA"><p>PUSHPA</p>
+        </div>
+        <div class="movie" data-title="BAHUBALI">
+          <img src="247473-ku5.jpg" alt="BAHUBALI"><p>BAHUBALI</p>
+        </div>
+        
+      </div>
+    </section>   <section>
+      <h2 class="section-title">&nbsp;&nbsp;&nbsp;New Releases</h2>
+      <div class="movie-container" id="movieList">
+        <div class="movie" data-title="KUBERAA">
+          <a href="#"><img src="247473-ku5.jpg" alt="Kuberaa"></a><p>KUBERAA</p>
+        </div>
+        <div class="movie" data-title="KGF">
+          <img src="247473-ku5.jpg" alt="KGF"><p>KGF</p>
+        </div>
+        <div class="movie" data-title="RRR">
+          <img src="247473-ku5.jpg" alt="RRR"><p>RRR</p>
+        </div>
+        <div class="movie" data-title="PUSHPA">
+          <img src="247473-ku5.jpg" alt="PUSHPA"><p>PUSHPA</p>
+        </div>
+        <div class="movie" data-title="BAHUBALI">
+          <img src="247473-ku5.jpg" alt="BAHUBALI"><p>BAHUBALI</p>
+        </div>
+        
+      </div>
+    </section>   <section>
+      <h2 class="section-title">&nbsp;&nbsp;&nbsp;New Releases</h2>
+      <div class="movie-container" id="movieList">
+        <div class="movie" data-title="KUBERAA">
+          <a href="#"><img src="247473-ku5.jpg" alt="Kuberaa"></a><p>KUBERAA</p>
+        </div>
+        <div class="movie" data-title="KGF">
+          <img src="247473-ku5.jpg" alt="KGF"><p>KGF</p>
+        </div>
+        <div class="movie" data-title="RRR">
+          <img src="247473-ku5.jpg" alt="RRR"><p>RRR</p>
+        </div>
+        <div class="movie" data-title="PUSHPA">
+          <img src="247473-ku5.jpg" alt="PUSHPA"><p>PUSHPA</p>
+        </div>
+        <div class="movie" data-title="BAHUBALI">
+          <img src="247473-ku5.jpg" alt="BAHUBALI"><p>BAHUBALI</p>
+        </div>
+        
+      </div>
+    </section>
+    <button class="scroll-btn right" onclick="scrollMovies(1)">
+      <i class="fas fa-circle-chevron-right"></i>
+    </button>
+    <div class="fade-right"></div>
+  </div>
+<br>
+<br>
+  <!-- ===== BOTTOM NAV (Transparent) ===== -->
+  <div class="bottom-nav transparent">
+    <button class="active" onclick="setActive(this)">
+      <i class="fas fa-home"></i><span>Home</span>
+    </button>
+    <button onclick="openSearchFull(); setActive(this)">
+      <i class="fas fa-search"></i><span>Search</span>
+    </button>
+    <button onclick="setActive(this)">
+      <i class="fas fa-play-circle"></i><span>Sparks</span>
+    </button>
+    <button onclick="setActive(this)">
+      <i class="fas fa-download"></i><span>Downloads</span>
+    </button>
+    <button onclick="setActive(this)">
+      <i class="fas fa-heart"></i><span>Wishlist</span>
+    </button>
+  </div>
+
+  <!-- ===== FULL SEARCH PAGE ===== -->
+  <div class="search-full" id="searchFull">
+    <div class="search-full-top">
+      <i class="fas fa-search"></i>
+      <input type="text" id="searchFullInput"
+             placeholder="Search movies..."
+             onkeyup="searchFullMovies()">
+      <i class="fas fa-microphone"></i>
+      <button class="close-btn" onclick="closeSearchFull()">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <div class="search-history" id="searchHistory"></div>
+    <div class="search-full-results" id="searchFullResults"></div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
